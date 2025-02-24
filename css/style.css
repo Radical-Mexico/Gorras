@@ -36,6 +36,10 @@
 
 html {
      scroll-behavior: smooth;
+
+
+/*--------------------------------------------------------------------- COLOR NEGRO FONDO ARRIBA ---------------------------------------------------------------------*/
+background: #000000; 
 }
 
 body {
@@ -44,6 +48,11 @@ body {
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+
+
+/*--------------------------------------------------------------------- COLOR NEGRO FONDO ARRIBA ---------------------------------------------------------------------*/
+background: #000000;
+ 
 }
 
 a {
@@ -226,6 +235,11 @@ button {
      background: #fff;
      width: 100%;
      height: 100%;
+
+
+ /*---------------------------- GIF DE CARGA EN COLOR NEGRO ----------------------------*/
+ background: #000000;
+ 
 }
 
 .loader {
@@ -237,11 +251,17 @@ button {
      display: flex;
      justify-content: center;
      align-items: center;
+
+/*---------------------------- GIF DE CARGA COLOR NEGRO ----------------------------*/
+
+ background: #000000; 
 }
 
 .loader img {
      width: 280px;
-}
+
+/*---------------------------- GIF DE CARGA COLOR NEGRO ----------------------------*/
+  background: #000000;}
 
 
 /*-- header area --*/
@@ -399,7 +419,11 @@ button {
      line-height: 45px;
      font-weight: bold;
      padding: 0;
-}
+
+/** TEXTO PRINCIPAL RECUADRO DE ENMEDIO BLANCO**/
+ 
+ Background:#000000;
+Color: #ffffff;}
 
 .d_flex {
      display: flex;
@@ -434,10 +458,22 @@ button {
 .about {
      border-bottom: #000 solid 1px;
      padding: 130px 0 90px 0;
+
+
+
+
+/*--------------------------------------------------------------------- COLOR NEGRO FONDO ARRIBA ---------------------------------------------------------------------*/
+background: #000000;
+ 
 }
 
 .about .about_img {
      margin-left: -40px;
+
+
+/*--------------------------------------------------------------------- RECUADRO ENMEDIO COLOR NEGRO---------------------------------------------------------------------*/
+background: #000000;
+ 
 }
 
 .about .titlepage::before {
@@ -450,6 +486,13 @@ button {
      background-repeat: no-repeat;
      top: -27px;
      z-index: -1;
+
+
+
+/*--------------------------------------------------------------------- TEXTO DEL RECUADRO DE ENMEDIO COLOR NEGRO TEXTO BLANCO---------------------------------------------------------------------*/
+background: #000000;
+
+ Color: #ffffff; 
 }
 
 .about .about_img figure {
@@ -460,16 +503,23 @@ button {
      border: #000 solid 1px;
      padding: 40px 40px;
      z-index: 10018;
-     background: #fff;
      margin-right: 40px;
+
+
+Background:#000000;
+Color: #ffffff;
+ 
 }
 
 .about .titlepage p {
-     color: #2a2a2c;
      font-size: 17px;
      line-height: 35px;
      font-weight: 400;
      padding-top: 20px;
+
+Background:#000000;
+Color: #ffffff;
+ 
 }
 
 .about .read_more {
