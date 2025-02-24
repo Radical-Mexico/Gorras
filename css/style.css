@@ -594,6 +594,8 @@ Color: #ffffff;
      border-radius: 2px;
      padding: 120px 0px 30px 0px;
      margin-bottom: 30px;
+
+ 
 }
 
 .glasses .glasses_box figure {
@@ -601,14 +603,14 @@ Color: #ffffff;
 }
 
 .glasses .glasses_box h3 {
-     color: #100d0d;
+     color: #FFFFFF;
      font-size: 22px;
      line-height: 20px;
      padding: 70px 0px 9px 0px;
 }
 
 .glasses .glasses_box p {
-     color: #2a2a2c;
+     color: #FFFFFF;
      font-size: 18px;
      line-height: 28px;
      font-weight: 400;
@@ -620,6 +622,7 @@ Color: #ffffff;
      display: block;
      margin: 0 auto;
      margin-top: 44px;
+   color: #FFFFFF;
 }
 
 
