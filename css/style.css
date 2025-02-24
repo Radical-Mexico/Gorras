@@ -340,6 +340,8 @@ button {
      z-index: 999;
      border-top: #090102 solid 11px;
 
+
+
 /*--------------------------------------------------------------------- COLOR NEGRO FONDO ARRIBA  HEADER---------------------------------------------------------------------*/
 background: #000000;
  
@@ -549,13 +551,22 @@ Color: #ffffff;
 /** Our  Glasses section **/
 
 .glasses {
-     background: #fff;
-     margin-top: 90px;
+     background: #000000;
+     Color: #ffffff;
+  margin-top: 90px; 
 }
 
 .glasses .titlepage {
      text-align: center;
      padding-bottom: 60px;
+
+
+ /** COLOR DE TEXTO DEL TITULO DE LA PAGINA **/
+ 
+ background: #000000;
+     Color: #ffffff;
+
+ 
 }
 
 .glasses .titlepage p {
@@ -563,6 +574,13 @@ Color: #ffffff;
      line-height: 30px;
      font-weight: 400;
      padding-top: 10px;
+
+/** COLOR DE TEXTO DEL RECUADRO **/
+ 
+ background: #000000;
+     Color: #ffffff;
+
+ 
 }
 
 .blu {
