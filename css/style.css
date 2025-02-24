@@ -327,10 +327,14 @@ button {
 .header {
      width: 100%;
      padding: 30px 30px;
-     background: transparent;
      position: absolute;
      z-index: 999;
      border-top: #090102 solid 11px;
+
+/*--------------------------------------------------------------------- COLOR NEGRO FONDO ARRIBA  HEADER---------------------------------------------------------------------*/
+background: #000000;
+ 
+ 
 }
 
 .logo {
@@ -880,7 +884,10 @@ ul.location_icon li a {
 
 .position_head .header {
      position: inherit;
-     background: #03cafc;
+/*--------------------------------------------------------------------- COLOR NEGRO FONDO ARRIBA HEADER ---------------------------------------------------------------------*/
+background: #000000;
+ 
+ 
 }
 
 .position_head .glasses,
