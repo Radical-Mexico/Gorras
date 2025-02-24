@@ -142,10 +142,19 @@ p {
      font-weight: 500;
      font-size: 15px;
      line-height: 24px;
+
+
+ 
+      color: #FFFFFF;
+
 }
 
 a {
-     color: #222222;
+     color: #FFFFFF;
+
+
+
+ 
      text-decoration: none;
      outline: none !important;
 }
