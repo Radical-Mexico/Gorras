@@ -41,8 +41,23 @@ html {
 /*--------------------------------------------------------------------- COLOR NEGRO FONDO ARRIBA ---------------------------------------------------------------------*/
 background: #000000; 
 }
+.loader_bg {
+   position: fixed;   /* Asegura que el fondo cubra toda la pantalla */
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.7); /* Fondo negro con algo de transparencia */
+   display: flex;
+   justify-content: center;  /* Centra el gif horizontalmente */
+   align-items: center;      /* Centra el gif verticalmente */
+   z-index: 9999;            /* Asegura que se muestre por encima de otros elementos */
+}
 
-body {
+.loader img {
+   max-width: 100%; /* Ajusta el tamaño del gif si es necesario */
+   max-height: 100%;
+}body {
      color: #666666;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
